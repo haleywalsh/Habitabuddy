@@ -1,0 +1,37 @@
+.about {
+	background-color: rgba(255, 255, 255, .5);
+	overflow: hidden;
+}
+
+
+.bars {
+	overflow: hidden;
+}
+
+.bar {
+	height: 4rem;
+	margin-bottom: 1rem;
+	background-color: #05354B;
+	border-radius: 1rem;
+	display: inline-block;
+	padding-left: 15rem;
+	padding-right: 1rem;
+	transform: translateX(-25%);
+}
+
+
+.bar p {
+	margin: 0;
+	line-height: 4rem;
+	font-size: 2.5rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	color: white;
+}
+
+.content p {
+	font-family: 'Thasadith', sans-serif;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 1.5rem;
+}

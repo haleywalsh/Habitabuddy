@@ -1,0 +1,61 @@
+.features {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+
+.bars2 {
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.bar2, .bar3, .bar4, .bar5, .bar6 {
+	height: 4rem;
+	margin-bottom: 1rem;
+	border-radius: 1rem;
+	display: inline-block;
+	padding-left: 1rem;
+	padding-right: 20rem;
+	justify-self: end;
+	transform: translateX(20%);
+}
+
+
+.bar2 {
+	background-color: #FAA61A;
+}
+
+.bar3 {
+	background-color: #96394E;
+}
+
+.bar4 {
+	background-color: #DC3C86;
+}
+
+.bar5 {
+	background-color: #957D94;
+}
+
+.bar6 {
+	background-color: #009C86;
+}
+
+
+
+.bar p {
+	margin: 0;
+	line-height: 4rem;
+	font-size: 2.5rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	color: white;
+	text-align: right;
+}
+
+
+
+
